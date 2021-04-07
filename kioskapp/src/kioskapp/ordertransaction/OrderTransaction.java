@@ -22,6 +22,7 @@ public class OrderTransaction {
 	private boolean transactionStatus;
 	private int last4Digits;
 	private String orderMode;
+	private int data;
 	
 	/* Implementation of 1:1 */
 	private Order order;
