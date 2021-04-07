@@ -21,6 +21,7 @@ public class OrderTransaction {
 	private float amountCharged;
 	private boolean transactionStatus;
 	private int last4Digits;
+	private String orderMode;
 	
 	/* Implementation of 1:1 */
 	private Order order;
@@ -107,6 +108,20 @@ public class OrderTransaction {
 	 */
 	public void setOrder(Order order) {
 		this.order = order;
+	}
+
+	/**
+	 * @return the orderMode
+	 */
+	public String getOrderMode() {
+		return orderMode;
+	}
+
+	/**
+	 * @param orderMode the orderMode to set
+	 */
+	public void setOrderMode(String orderMode) {
+		this.orderMode = orderMode;
 	}
 	
 	
