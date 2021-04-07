@@ -1,4 +1,4 @@
-package kioaskapp.order;
+package kioskapp.order;
 
 import java.util.List;
 

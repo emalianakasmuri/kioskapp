@@ -2,7 +2,7 @@ package kioskapp.ordertransaction;
 
 import java.sql.Date;
 
-import kioaskapp.order.Order;
+import kioskapp.order.Order;
 
 /**
  * 
